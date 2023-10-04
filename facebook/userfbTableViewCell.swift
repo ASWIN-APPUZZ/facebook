@@ -9,6 +9,11 @@ import UIKit
 
 class userfbTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var img: UIImageView!
+    
+    @IBOutlet weak var name: UITextField!
+
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

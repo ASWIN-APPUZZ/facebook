@@ -16,6 +16,10 @@
 		CE8501E42ACD4E6C00BE9B98 /* facebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8501E32ACD4E6C00BE9B98 /* facebookTests.swift */; };
 		CE8501EE2ACD4E6C00BE9B98 /* facebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8501ED2ACD4E6C00BE9B98 /* facebookUITests.swift */; };
 		CE8501F02ACD4E6C00BE9B98 /* facebookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8501EF2ACD4E6C00BE9B98 /* facebookUITestsLaunchTests.swift */; };
+		CE8501FD2ACD563B00BE9B98 /* fbTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8501FC2ACD563B00BE9B98 /* fbTableViewController.swift */; };
+		CE8501FF2ACD566900BE9B98 /* userfbTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8501FE2ACD566900BE9B98 /* userfbTableViewCell.swift */; };
+		CE8502012ACD567E00BE9B98 /* settingsfbTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8502002ACD567E00BE9B98 /* settingsfbTableViewCell.swift */; };
+		CE8502032ACD56BA00BE9B98 /* userViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8502022ACD56BA00BE9B98 /* userViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		CE8501E92ACD4E6C00BE9B98 /* facebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = facebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8501ED2ACD4E6C00BE9B98 /* facebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookUITests.swift; sourceTree = "<group>"; };
 		CE8501EF2ACD4E6C00BE9B98 /* facebookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE8501FC2ACD563B00BE9B98 /* fbTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fbTableViewController.swift; sourceTree = "<group>"; };
+		CE8501FE2ACD566900BE9B98 /* userfbTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userfbTableViewCell.swift; sourceTree = "<group>"; };
+		CE8502002ACD567E00BE9B98 /* settingsfbTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsfbTableViewCell.swift; sourceTree = "<group>"; };
+		CE8502022ACD56BA00BE9B98 /* userViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				CE8501CE2ACD4E6900BE9B98 /* SceneDelegate.swift */,
 				CE8501D02ACD4E6900BE9B98 /* ViewController.swift */,
 				CE8501D22ACD4E6900BE9B98 /* Main.storyboard */,
+				CE8501FE2ACD566900BE9B98 /* userfbTableViewCell.swift */,
+				CE8502002ACD567E00BE9B98 /* settingsfbTableViewCell.swift */,
+				CE8502022ACD56BA00BE9B98 /* userViewController.swift */,
+				CE8501FC2ACD563B00BE9B98 /* fbTableViewController.swift */,
 				CE8501D52ACD4E6C00BE9B98 /* Assets.xcassets */,
 				CE8501D72ACD4E6C00BE9B98 /* LaunchScreen.storyboard */,
 				CE8501DA2ACD4E6C00BE9B98 /* Info.plist */,
@@ -259,7 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8501D12ACD4E6900BE9B98 /* ViewController.swift in Sources */,
+				CE8501FD2ACD563B00BE9B98 /* fbTableViewController.swift in Sources */,
+				CE8502032ACD56BA00BE9B98 /* userViewController.swift in Sources */,
+				CE8501FF2ACD566900BE9B98 /* userfbTableViewCell.swift in Sources */,
 				CE8501CD2ACD4E6900BE9B98 /* AppDelegate.swift in Sources */,
+				CE8502012ACD567E00BE9B98 /* settingsfbTableViewCell.swift in Sources */,
 				CE8501CF2ACD4E6900BE9B98 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

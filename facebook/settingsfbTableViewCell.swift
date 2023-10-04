@@ -8,7 +8,11 @@
 import UIKit
 
 class settingsfbTableViewCell: UITableViewCell {
-
+    
+    @IBOutlet weak var icon: UIImageView!
+    
+    @IBOutlet weak var setting: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

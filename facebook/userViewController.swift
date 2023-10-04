@@ -9,10 +9,20 @@ import UIKit
 
 class userViewController: UIViewController {
 
+    @IBOutlet weak var username: UILabel!
+    
+    @IBOutlet weak var uimage: UIImageView!
+    
+    
+    var name = ""
+    var img = ""
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        username.text = "Name: \(name)"
     }
     
 
